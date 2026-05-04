@@ -1,7 +1,7 @@
 # ROS2 Project - Autonomous Robot Navigation and Colour Detection
 
 **Author:** Sreeja Chowdary Tulluru           
-**Module:** COMP3631 - Robotics and Autonomous Systems                 
+**Module:** COMP3631 - Intelligent Systems and Robotics              
 **University of Leeds**                      
 
 ---
