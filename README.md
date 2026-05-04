@@ -1,8 +1,8 @@
 # ROS2 Project - Autonomous Robot Navigation and Colour Detection
 
-**Student:** Sreeja Chowdary Tulluru
-**Module:** COMP3631 - Robotics and Autonomous Systems  
-**University of Leeds**
+**Student:** Sreeja Chowdary Tulluru           
+**Module:** COMP3631 - Robotics and Autonomous Systems                 
+**University of Leeds**                      
 
 ---
 
@@ -104,25 +104,25 @@ cd ~/ros2_ws
 source ~/.bashrc
 ```
 
-### Step 1 — Launch Gazebo World
+### Step 1 - Launch Gazebo World
 ```bash
 ros2 launch turtlebot3_gazebo turtlebot3_task_world_2026.launch.py
 ```
 
-### Step 2 — Launch Nav2
+### Step 2 - Launch Nav2
 ```bash
 ros2 launch turtlebot3_navigation2 navigation2.launch.py \
   use_sim_time:=True \
   map:=~/ros2_ws/src/ros2_project_sc23sct/map/map.yaml
 ```
 
-### Step 3 — Launch RViz and Set Initial Pose
+### Step 3 - Launch RViz and Set Initial Pose
 ```bash
 rviz2
 ```
 In RViz click **2D Pose Estimate** and set the robot's starting position in the bottom right compartment.
 
-### Step 4 — Build and Run the Node
+### Step 4 - Build and Run the Node
 ```bash
 cd ~/ros2_ws
 colcon build --packages-select ros2_project_sc23sct
